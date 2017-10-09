@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Register</title>
+		<style>
+body {
+    background-image: url("im.jpg");
+    background-size: cover; 
+   }
+
+h1 {
+    color:red;
+    text-align:center;
+   }
+ 
+h3 { 
+    text-align:center;
+    color:green;
+}
+
+</style>
+    </head>
+    <body>
+        <script type="text/javascript" src="cordova.js"></script>
+		<h1> Registration form </h1>
+<hr> 
+<h3>
+<form>
+  First name: <input type="text" name="firstname"><br>
+  <br>
+  Last name: <input type="text" name="lastname"> <br>
+  <br>
+  MailId: <input type="email" name="email"> <br>
+  <br>
+   Password: <input type="password" name=" " ><br>
+<br>
+ Gender:<input type="radio" name="gender" value="Female" checked> Female
+        <input type="radio" name="gender" value="male"> male<br>
+<br>
+Date Of Birth:
+  <input type="date" name="bday"><br>
+<br>
+Nationality :<input list="Nations" name="nation">
+<datalist id="Nations">
+  <option value="India">
+  <option value="USA">
+  <option value="china">
+  <option value="England">
+  <option value="japan">
+</datalist><br>
+<br>
+Languages known:<input type="checkbox" name="lang" value="Telugu">Telugu
+                <input type="checkbox" name="lang" value="English">English
+                <input type="checkbox" name="lang" value="Hindi">Hindi<br>
+<br>
+</form>
+<form action ="one.html">
+<input type="submit" value="submit">
+
+</h3>
+
+    </body>
+</html>
